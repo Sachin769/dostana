@@ -47,8 +47,8 @@ app.post("/profile-verification", async (req, resp) => {
         // const senderLink = `http://192.168.0.213:2200/${destFileName}`;
         // const storedLink = "http://192.168.0.213:2200/1713359212828.jpg"
 
-        const senderLink = "https://dostanaa.in/public/upload/290172244.jpg";
-        const storedLink = "https://lh3.googleusercontent.com/p/AF1QipP4ZG7eIrhEkmzJmoXUuLdmLjzNZhdVWWv2Jgjx=s680-w680-h510";
+        const senderLink = `https://dostana.onrender.com/${destFileName}`;
+        const storedLink = "https://dostana.onrender.com/1713360682464.jpg";
         console.log("senderLink",senderLink);
         console.log("storedLink",storedLink);
         let data = qs.stringify({
